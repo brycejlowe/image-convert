@@ -48,5 +48,3 @@ RUN IMAGEMAGICK_SRC=/usr/local/src/imagemagick && \
 
 COPY image_convert.py /usr/local/bin/image_convert.py
 RUN chmod +x /usr/local/bin/image_convert.py
-
-CMD ["/usr/local/bin/image_convert.py"]
